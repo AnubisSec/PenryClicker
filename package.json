@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/TorturedProphet/PenryClicker/issues"
   },
-  "homepage": "https://github.com/TorturedProphet/PenryClicker#readme"
+  "homepage": "https://github.com/TorturedProphet/PenryClicker#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.4"
+  }
 }
