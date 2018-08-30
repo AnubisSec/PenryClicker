@@ -1,0 +1,19 @@
+{
+  "name": "penryproject",
+  "version": "1.0.0",
+  "description": "Penry Clicker (Beta)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TorturedProphet/PenryClicker.git"
+  },
+  "author": "Dylan Makowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TorturedProphet/PenryClicker/issues"
+  },
+  "homepage": "https://github.com/TorturedProphet/PenryClicker#readme"
+}
