@@ -4,6 +4,19 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
  */
 
+
+ @font-face {
+   font-family: "Amatic-Bold";
+   src: url("fonts/Amatic-Bold.ttf");
+
+ }
+
+ @font-face {
+   font-family: "Amaranth";
+   src: url("fonts/Amaranth-Bold.otf");
+ }
+
+
 body {
   background: url("pup2.jpg") no-repeat center center fixed;
   background-size: auto;
@@ -16,7 +29,16 @@ button {
 
 div {
   position: absolute;
-  left: 50%;
+  left: 45%;
   bottom: 90%;
+  font-weight: 900;
+  font-family: 'Amaranth';
+  font-style: normal;
+}
+
+div2 {
+  position: absolute;
+  left: 45%;
+  bottom: 80%;
   font-size: 15pt;
 }

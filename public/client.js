@@ -22,7 +22,7 @@ button.addEventListener('click', function(e) {
   });
 });
 
-//This just queries the database every second to get data 
+//This just queries the database every second to get data
 setInterval(function() {
   fetch('/clicked', {method: 'GET'})
   .then(function(response) {
@@ -35,4 +35,6 @@ setInterval(function() {
   .catch(function(error) {
     console.log(error);
   });
-}, 1000);
+}, 10);
+
+//made the fetch time 10 to make the update appear instant. 
