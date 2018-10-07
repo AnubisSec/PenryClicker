@@ -9,3 +9,12 @@
 #ADD PENRY PIC
 
 #Perhaps a small penry sprite to bounce per click
+
+
+
+
+NOTES:
+
+Start DB: sudo mongod --auth --dbpath /data/db
+
+Start Site: nodemon <file of site name>

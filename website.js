@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/public'));
 let db;
 
 
-var url = 'mongodb://dmakowski:Kratos%23716@localhost:27017/admin';
+var url = 'mongodb://dmakowski://///s%23716@localhost:27017/admin';
 
 //connects to the database using the URL, auth, and database name
 MongoClient.connect(url, function (err, database) {
